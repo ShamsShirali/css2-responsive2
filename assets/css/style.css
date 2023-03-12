@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +26,11 @@ header nav .menu {
     display: flex;
     justify-content: space-between;
     flex-grow: 0.1;
+}
+
+header nav .burger,
+header nav .fa-angle-down {
+    display: none;
 }
 
 header nav ul li {
@@ -113,6 +124,11 @@ header nav .login {
     bottom: 500px;
 }
 
+.one {
+    display: flex;
+    margin-right: 250px;
+}
+
 .one .joystick {
     position: absolute;
     width: 143px;
@@ -149,6 +165,16 @@ header nav .login {
 
 .one .about .name {
     margin-top: 24px;
+    width: 531px;
+    height: 201px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;
+
 }
 
 .one .store {
@@ -222,7 +248,20 @@ header nav .login {
 
 .two .text {
     position: absolute;
-    margin-left: 700px;
+    margin-left: 600px;
+}
+
+.two .text .name{
+        margin-top: 24px;
+        width: 531px;
+        height: 201px;
+        font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 120%;
+        letter-spacing: -0.04em;
+        color: #000000;
 }
 
 .two .playful {
@@ -244,7 +283,7 @@ header nav .login {
     color: #757575;
 }
 
-.two .one-anim{
+.two .one-anim {
     background: #F2D4DC;
     border-radius: 14px;
 }
@@ -265,7 +304,7 @@ header nav .login {
     margin-left: 5px;
 }
 
-.two .first-anim{
+.two .first-anim {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -281,7 +320,7 @@ header nav .login {
     padding: 14px 22px;
     gap: 19px;
 
-    /* top:-10px;
+    /* top: -10px;
     animation-name: shoes;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -290,26 +329,23 @@ header nav .login {
 }
 
 /* @keyframes shoes {
-    from{
-        top:-10px;
-
+    from {
+        top: -10px;
     }
 
-    to{
-      top:10px;
-        
+    to {
+        top: 10px;
     }
 } */
 
-.two .two-anim{
+.two .two-anim {
     background: #C3DCE3;
     border-radius: 14px;
     margin-left: 21.05px;
-    width: 129px;
-    height: 112px;
+    position: relative;
 }
 
-.two .two-anim p{
+.two .two-anim p {
     font: 700 16px 'Montserrat';
     font-style: normal;
     line-height: 100%;
@@ -334,7 +370,7 @@ header nav .login {
     gap: 19px;
 }
 
-.two .second-anim{
+.two .second-anim {
     display: flex;
     justify-content: center;
     align-items: flex-end;

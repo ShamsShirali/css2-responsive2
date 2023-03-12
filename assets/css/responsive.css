@@ -1,0 +1,94 @@
+@media only screen and (max-width:576px) {
+    /* HEADER */
+
+    .container {
+        max-width: 350px;
+    }
+
+    header nav .menu hr,
+    header nav .menu ul,
+    header nav .sign {
+        display: none;
+    }
+
+    header nav .burger,
+    header nav .fa-angle-down {
+        display: inline-block;
+    }
+
+    header nav .fa-angle-down {
+        margin-left: 7.76px;
+        margin-top: 3px;
+    }
+
+    header nav .burger {
+        margin-right: 65px;
+    }
+
+    header nav .profile {
+        margin-left: 42.5px;
+    }
+
+    /* SECTION ONE */
+
+    .one .one-align {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one .e-course {
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        margin-left: 140px;
+    }
+
+    header .logo {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .one .name {
+        text-align: center;
+        width: 335px;
+        height: 96px;
+        font-size: 32px;
+    }
+
+    .one .store {
+        width: 335px;
+        height: 20px;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        margin-left: 80px;
+    }
+
+    .one button{
+        margin-left: 170px;
+    }
+
+    .one .inform{
+        text-align: center;
+    }
+
+    /* SECTION TWO */
+
+    .two .two-align {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .two .name{
+        text-align: center;
+    }
+
+    .two .store{
+        text-align: center;
+    }
+
+    .two .animations{
+        justify-content: center;
+    }
+}
