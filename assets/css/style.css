@@ -105,10 +105,6 @@ header nav .login {
     color: #000000;
 }
 
-.one {
-    display: flex;
-}
-
 .one .image {
     position: relative;
     width: 917px;
@@ -222,7 +218,6 @@ header nav .login {
 
 .two .girl-photo {
     position: absolute;
-    /* margin-top: 77.5px; */
 }
 
 .two .text {
@@ -237,7 +232,6 @@ header nav .login {
 
 .two .animations {
     display: flex;
-    justify-content: space-between;
     margin-top: 30.5px;
     position: relative;
 }
@@ -286,11 +280,33 @@ header nav .login {
     align-items: flex-end;
     padding: 14px 22px;
     gap: 19px;
+
+    /* top:-10px;
+    animation-name: shoes;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 5s;
+    animation-timing-function: ease; */
 }
+
+/* @keyframes shoes {
+    from{
+        top:-10px;
+
+    }
+
+    to{
+      top:10px;
+        
+    }
+} */
 
 .two .two-anim{
     background: #C3DCE3;
     border-radius: 14px;
+    margin-left: 21.05px;
+    width: 129px;
+    height: 112px;
 }
 
 .two .two-anim p{
@@ -316,4 +332,12 @@ header nav .login {
     align-items: flex-end;
     padding: 14px 22px;
     gap: 19px;
+}
+
+.two .second-anim{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 14px;
+    padding-bottom: 15px;
 }
